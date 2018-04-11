@@ -164,11 +164,19 @@
 
     // options for period
     var str_opt_period = '';
-    var periods = [gettext('minute'), gettext('hour'), gettext('day'),
-                   gettext('week'), gettext('month'), gettext('year')];
-    for (i = 0; i < periods.length; i++) {
-        str_opt_period += "<option value='" + periods[i] + "'>";
-         str_opt_period += periods[i];
+
+    var periods = {
+        'minute': gettext('minute'),
+        'hour': gettext('hour'),
+        'day': gettext('day'),
+        'week': gettext('week'),
+        'month': gettext('month'),
+        'year': gettext('year')
+    };
+
+    for (var period in periods) {
+        str_opt_period += "<option value='" + period + "'>";
+         str_opt_period += periods[period];
          str_opt_period += '</option>\n';
     }
 
