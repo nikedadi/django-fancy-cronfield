@@ -9,31 +9,31 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-11 13:42+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2018-04-13 14:48+0230\n"
+"Last-Translator:     <test@agora.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Translated-Using: django-rosetta 0.7.6\n"
 
 #: fields.py:23
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr ""
+msgstr "سلسلة (تصل إلى %(max_length)s)"
 
 #: validators.py:20
 #, python-format
 msgid "Ensure the timing runs at most %(limit_value)s times per day."
-msgstr ""
+msgstr "وضمان توقيت يعمل في معظم %(limit_value)s مرات في اليوم الواحد."
 
 #: validators.py:21
 #, python-format
 msgid "It runs %(show_value)s times per day."
-msgstr ""
+msgstr "فإنه يعمل %(show_value)s مرات في اليوم الواحد."
 
 #: validators.py:24
 msgid "Ensure that your selected timing is valid."
-msgstr ""
+msgstr "التأكد من أن اختيار التوقيت هو صالح."
